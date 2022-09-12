@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,PLD,doxorubicin,,,,
+0,PFS,6.9,7.8 months,hazard ratio ( HR ) =1.00,0.82-1.22,NR,NR
+0,Overall risk of cardiotoxicity,NR,significantly higher,HR=3.16,1.58-6.31,P<0.001,NR

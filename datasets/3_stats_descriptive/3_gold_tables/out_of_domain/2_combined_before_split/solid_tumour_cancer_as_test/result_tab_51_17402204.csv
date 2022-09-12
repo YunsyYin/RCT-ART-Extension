@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,,,,,,
+0,tumor size,NR,NR,NR,NR,P = 0.07,NR
+0,TNM stage,NR,NR,NR,NR,P = 0.39,NR
+0,cumulative breast cancer mortality rate,NR,NR,NR,NR,P = 0.72,NR
+0,"TNM stage, cumulative breast cancer mortality rate, tumor size",NR,NR,NR,NR,NR,not significantly different

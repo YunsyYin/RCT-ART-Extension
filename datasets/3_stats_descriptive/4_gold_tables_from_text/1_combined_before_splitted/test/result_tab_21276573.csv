@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,Overlay Ref group,control group,,,,
+0,Mean CRT total procedure times ( skin-to-skin ),80.7 ± 18.0 min,98.5 ± 32.2 min,NR,NR,p = 0.029,NR
+0,Mean placement of LV pacing lead into target vein times,16.2 ± 7.7 min,36.4 ± 23.4 min,NR,NR,p=0.004,NR
+0,Mean total fluoroscopy times,13.6 ± 4.3 min,23.8 ± 15.7 min,NR,NR,p=0.007,NR

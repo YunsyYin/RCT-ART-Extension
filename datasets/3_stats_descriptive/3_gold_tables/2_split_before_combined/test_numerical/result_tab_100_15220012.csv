@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,pioglitazone,,,,,
+0,hypoglycemic episodes,19 [ 15.7 % ],38 [ 30.9 % ],NR,NR,P = 0.024,NR
+0,peripheral edema,35/121 [ 28.9 % ],17/123 [ 13.8 % ],NR,NR,P = 0.005,NR

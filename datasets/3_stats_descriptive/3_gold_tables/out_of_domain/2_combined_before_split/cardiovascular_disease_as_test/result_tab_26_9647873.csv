@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,transfusion group,,,,,
+0,"base line, mean hemoglobin concentration",7.2,7.6 g per deciliter,NR,NR,P=0.001,NR
+0,"base line, hematocrit",20.4,21.7 percent,NR,NR,P=0.002,NR
+0,"base line, hematocrit, mean hemoglobin concentration",slightly lower,NR,NR,NR,NR,NR

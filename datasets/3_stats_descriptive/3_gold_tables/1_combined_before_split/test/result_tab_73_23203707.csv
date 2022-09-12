@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,T2345,BPL,,,,
+0,"D42, Moderate to severe conjunctival hyperaemia",20.2%,30.6%;,NR,NR,p=0.003,NR
+0,"D84, Moderate to severe conjunctival hyperaemia",21.4,29.1%,NR,NR,p=0.02,NR

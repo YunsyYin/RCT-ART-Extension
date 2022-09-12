@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,,group B,,,,
+0,neurotoxicity,NR,NR,NR,NR,P = 0.025,NR
+0,leucopenia,NR,NR,NR,NR,P = 0.038,NR
+0,"leucopenia, neurotoxicity",NR,more pronounced,NR,NR,NR,NR
+0,"relative dose intensity of paclitaxel, total study group",0.94,0.94,NR,NR,NR,NR

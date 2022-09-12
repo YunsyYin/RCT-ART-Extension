@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,losartan,captopril,,,,
+0,cardiovascular deaths,"420 , 15 %","363 , 13 %",NR,NR,p = 0.03,NR
+0,assigned to a target dose,50 mg/day,50 mg t.i.d.,NR,NR,NR,NR

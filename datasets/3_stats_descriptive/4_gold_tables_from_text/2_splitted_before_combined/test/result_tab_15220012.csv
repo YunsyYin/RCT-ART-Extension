@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"pioglitazone, pioglitazone group",glimepiride group,,,,
+0,"HbA ( 1c ) values, after 52 weeks",7.46 %,7.77 %,NR,NR,P = 0.027,NR
+0,"HbA ( 1c ) values, after 12 weeks of therapy",8.66 %,7.80 %,NR,NR,P = 0.007,NR
+0,hypoglycemic episodes,19 [ 15.7 % ],38 [ 30.9 % ],NR,NR,P = 0.024,NR
+0,peripheral edema,35/121 [ 28.9 % ],17/123 [ 13.8 % ],NR,NR,P = 0.005,NR

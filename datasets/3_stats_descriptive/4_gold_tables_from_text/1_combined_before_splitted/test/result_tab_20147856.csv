@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,arm A,arm B,,,,
+0,response rates,22.0,28.9 %,NR,NR,p = 0.606,NR
+0,Median time to progression,4.1 months,5.5 months,NR,NR,NR,NR

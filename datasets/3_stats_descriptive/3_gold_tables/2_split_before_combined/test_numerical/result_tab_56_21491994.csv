@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,oral clonidine,placebo,,,,
+0,"6, IOP",13.61±4.09,17.96±5.49,NR,NR,P<0.001,NR
+0,"12, IOP",13.96±3.25,16.90±4.11,NR,NR,P=0.003,NR

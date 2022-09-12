@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"study, study group","control, control group",,,,
+0,"12 mo, completed the study",18,25,NR,NR,NR,NR
+0,"12 mo, completed the study, total study group",Forty-three patients,Forty-three patients,NR,NR,NR,NR
+0,mean IOP in the first month of follow-up,13.6±6.5,20.4±9.7,NR,NR,P<0.01,NR

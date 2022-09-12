@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,TLC D-99,doxorubicin,,,,
+0,Median cumulative doxorubicin dose at onset of cardiotoxicity,785 mg/m,570 mg/m,"hazard ratio , 3.56",NR,P = 0.0001,NR
+0,Median survival,NR,20 months,NR,NR,P = 0.09,NR
+0,"Median survival, total study group",16,16,NR,NR,NR,NR

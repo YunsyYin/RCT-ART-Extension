@@ -1,0 +1,7 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"latanoprost, latanoprost-treated group","timolol, timolol group",,,,
+0,"6, Reduction of IOP",6.0 +/- 4.5,4.8 +/- 3.0,NR,NR,NR,NR
+0,"12 months, Reduction of IOP",5.9 +/- 4.6,4.6 +/- 3.1,NR,NR,NR,NR
+0,"baseline, heart rate",NR,72 +/- 9,NR,NR,NR,NR
+0,"12 months, heart rate",NR,67 +/- 10 beats per minute,NR,NR,NR,NR
+0,Mean 'C',+30%,NR,NR,NR,P = 0.017,NR

@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,group C,,,,,
+0,need for propofol,NR,NR,NR,NR,P < 0.04,NR
+0,sevoflurane,NR,NR,NR,NR,P < 0.01,NR
+0,early need for ketobemidone,reduced,NR,NR,NR,P < 0.04,NR
+0,"need for propofol, sevoflurane",significantly reduced,NR,NR,NR,NR,NR

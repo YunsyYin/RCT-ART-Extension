@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"BTFC, BTFC group","LTFC, LTFC group",,,,
+0,mean IOP reduction,-21.4%,-13.7%,NR,NR,p<0.001,NR
+0,mean IOP reduction from baseline >or=15%,72.3%,40.0%,NR,NR,NR,NR
+0,>or=20%,61.7%,17.1%,NR,NR,NR,NR
+0,"Mean IOP, baseline",22.7+/-2.0,22.1+/-2.6 mmHg,NR,NR,p=0.23,NR

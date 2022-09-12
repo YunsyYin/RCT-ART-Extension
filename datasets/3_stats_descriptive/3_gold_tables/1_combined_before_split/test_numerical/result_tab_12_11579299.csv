@@ -1,0 +1,7 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,induction,noninduction,,,,
+0,cytomegalovirus ( CMV ) infection,32.5 %,19.0 %,NR,NR,P=0.009,NR
+0,leukopenia,37.3 %,9.5 %,NR,NR,P < 0.001,NR
+0,fever,25.2 %,10.1 %,NR,NR,P=0.001,NR
+0,herpes simplex,17.9 %,5.7 %,NR,NR,P=0.001,NR
+0,thrombocytopenia,11.3 %,3.2 %,NR,NR,P=0.007,NR

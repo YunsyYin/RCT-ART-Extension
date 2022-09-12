@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,,,,,,
+0,TtP,NR,NR,hazard ratio (HR) = 1.101,0.885-1.370,P = 0.387,NR
+0,OS,NR,NR,HR = 1.031,0.830-1.280,P = 0.785,NR
+0,"OS, TtP",NR,NR,NR,NR,NR,not significantly different

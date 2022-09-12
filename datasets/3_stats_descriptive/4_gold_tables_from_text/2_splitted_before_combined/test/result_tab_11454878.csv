@@ -1,0 +1,8 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,PLD,topotecan,,,,
+0,treated,239,235,NR,NR,NR,NR
+0,"treated, total study group",474 patients,474 patients,NR,NR,NR,NR
+0,Median overall survival times,60 weeks,56.7 weeks,NR,NR,NR,NR
+0,overall response rates,19.7 %,17.0 %,NR,NR,P =.390,NR
+0,progression-free survival rates,NR,NR,NR,NR,P =.095,similar
+0,Severe hematologic toxicity,NR,more common,NR,NR,NR,NR

@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"BSS Plus, group BSS Plus",Ringer,,,,
+0,"ECD reduction, day 60",13.1 ± 2.0%,9.2 ± 1.9%,NR,NR,p<0.05,NR
+0,"CV increase, day 60",23.0 ± 3.0%,20.2 ± 4.0%,NR,NR,p<0.05,NR

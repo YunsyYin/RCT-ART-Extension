@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,tourniquet group,control group,,,,
+0,transfusion rates,7 %,79 %,NR,NR,P= 0.0003,NR
+0,less blood lost,NR,NR,difference between means 1870 mL,1159-2580 mL,P < 0.0001,NR

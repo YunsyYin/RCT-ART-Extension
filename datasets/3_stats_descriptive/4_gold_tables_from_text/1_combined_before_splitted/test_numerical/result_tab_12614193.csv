@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,losartan,"captopril, captopril group",,,,
+0,"all-cause mortality, deaths",499 ( 18 % ),447 ( 16 % ),NR,NR,p = 0.07,NR
+0,patients discontinuing medication,17,23 %,NR,NR,NR,NR

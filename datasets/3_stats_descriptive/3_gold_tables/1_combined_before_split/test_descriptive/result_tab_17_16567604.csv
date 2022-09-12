@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,HBI,,,,,
+0,"event-free survival from death, unplanned hospitalization",NR,NR,"relative risk, 1.03",0.86-1.24,NR,NR
+0,all-cause mortality,NR,NR,"relative risk, 1.04",0.80-1.35,NR,NR
+0,"all-cause mortality, event-free survival from death, unplanned hospitalization",no impact,NR,NR,NR,NR,NR

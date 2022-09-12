@@ -1,0 +1,8 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,tamoxifen,placebo,,,,
+0,women without CHD,6074,6072,NR,NR,NR,NR
+0,"fatal myocardial infarction, nonfatal myocardial infarction, severe angina, unstable angina",NR,NR,risk ratios,NR,NR,NR
+0,fatal myocardial infarction,NR,NR,1.75,0.44 to 8.13,NR,NR
+0,nonfatal myocardial infarction,NR,NR,1.11,0.55 to 2.28,NR,NR
+0,unstable angina,NR,NR,0.69,0.29 to 1.57,NR,NR
+0,severe angina,NR,NR,0.83,0.32 to 2.10,NR,NR

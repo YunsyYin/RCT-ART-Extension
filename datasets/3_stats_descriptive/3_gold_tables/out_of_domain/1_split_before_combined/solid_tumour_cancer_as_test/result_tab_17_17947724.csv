@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,Exemestane patients,,,,,
+0,bone/muscle aches,NR,NR,NR,NR,P < .0001,NR
+0,vaginal dryness,NR,NR,NR,NR,P = .0004,NR
+0,difficulty sleeping,NR,NR,NR,NR,P = .03,NR
+0,"bone/muscle aches, difficulty sleeping, vaginal dryness",more,NR,NR,NR,NR,NR

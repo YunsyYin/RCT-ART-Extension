@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,"after priming, priming, with","priming, without",,,,
+0,neutrophil nadir,490 +/- 310/microL,550 +/- 350/microL,NR,NR,P =.2,similar
+0,"day 16, mean neutrophil count",1030 +/- 580/microL,690 +/- 370/microL,NR,NR,P =.004,higher
+0,neutrophil count less than 500/microL,lower,six of 35 or 17.1%,NR,NR,P =.04,NR
+0,"neutrophil count less than 500/microL, total study group",12 of 34 or 35.3%,12 of 34 or 35.3%,NR,NR,NR,NR

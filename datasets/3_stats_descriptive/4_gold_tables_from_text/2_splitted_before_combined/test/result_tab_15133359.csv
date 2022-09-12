@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,EPA group,GCA group,,,,
+0,Time to successful catheterization of CS,5.0 +/- 2.4 min,10.1 +/- 5.4 min,NR,NR,p = 0.004,NR
+0,Total contrast dye volume,0.0 ml,14.3 +/- 3.4 ml,NR,NR,p < 0.001,NR

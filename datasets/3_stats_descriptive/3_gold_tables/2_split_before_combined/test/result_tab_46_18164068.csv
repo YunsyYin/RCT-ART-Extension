@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,Ahmed group,Baerveldt group,,,,
+0,"antiglaucoma medications, last follow-up",1.4+/-1.2,0.9+/-1.1 medications,NR,NR,P = 0.008,NR
+0,"last follow-up, mean IOP",19.8+/-9.5,15.8+/-7.9 mmHg,NR,NR,P = 0.003,NR

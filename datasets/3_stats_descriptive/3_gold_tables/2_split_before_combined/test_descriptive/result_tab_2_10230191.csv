@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,,,,,,
+0,between the child's number of words and developmental quotient,NR,NR,Spearman rho = 0.58,NR,p = .003,NR
+0,between the child's and parent's number of words,NR,NR,rho = 0.55,NR,p = .005,NR
+0,"between the child's and parent's number of words, between the child's number of words and developmental quotient",NR,NR,NR,NR,NR,Significant correlations

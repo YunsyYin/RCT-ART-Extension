@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,Zoledronic acid,placebo,,,,
+0,risk of SREs,"41%, reduced",NR,risk ratio = 0.59,NR,P = .019,NR
+0,time-to-first SRE,"median not reached, significantly delayed",364 days,NR,NR,P = .007,NR

@@ -1,0 +1,5 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,Denosumab,,,,,
+0,time to first and subsequent (multiple) on-study SREs,NR,NR,"rate ratio, 0.77",0.66 to 0.89,P = .001,NR
+0,delaying time to first on-study SRE,NR,NR,"hazard ratio, 0.82",0.71 to 0.95,P = .01,NR
+0,"delaying time to first on-study SRE, time to first and subsequent (multiple) on-study SREs",superior,NR,NR,NR,NR,NR

@@ -1,0 +1,6 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,VNR/CDDP arm,,,,,
+0,Febrile neutropenia rate,NR,NR,NR,NR,p=0.02,NR
+0,G3-4 anemia,NR,NR,NR,NR,p=0.005,NR
+0,G-CSF/EPO use,NR,NR,NR,NR,p=0.019,NR
+0,"Febrile neutropenia rate, G-CSF/EPO use, G3-4 anemia",higher,NR,NR,NR,NR,NR

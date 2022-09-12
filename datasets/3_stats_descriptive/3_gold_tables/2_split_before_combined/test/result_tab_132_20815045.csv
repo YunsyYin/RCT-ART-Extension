@@ -1,0 +1,4 @@
+,outcome,arm 1,arm 2,comparative statistic,95% CI,p-value,note
+0,intervention,,,,,,
+0,target vessel revascularization (TVR),NR,NR,OR 9.50,3.07-29.44,P < 0.001,NR
+0,MACE,NR,NR,odds ratio (OR) 8.60,3.25-22.76,P < 0.001,NR
