@@ -6,7 +6,7 @@ RCT-ART Extension is an NLP pipeline extended from RCT-ART and a tool for extrac
 
 
 ### Schematic of NLP pipeline design ###
-<p align="center"><img width="30%" src="public/system_design.jpg" /></p>
+<p align="center"><img width="40%" src="public/system_design.jpg" /></p>
 
 
 ### Running the system from Python ###
