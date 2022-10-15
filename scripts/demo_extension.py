@@ -15,23 +15,20 @@ st.set_page_config(
 )
 
 st.sidebar.image("logo.jpg")
-st.sidebar.markdown("RCT-ART Extension is an NLP pipeline built with spaCy for converting clinical trial result text into tables through jointly extracting intervention, outcome, outcome measure and comparative statistic entities and their relations. ")
+st.sidebar.markdown("RCT-ART Extension is an NLP pipeline built with spaCy for converting clinical trial result text into tables through jointly extracting intervention, outcome, various result entities and their relations. ")
 st.sidebar.subheader("Current constraints:")
 st.sidebar.markdown("""
                     - Only abstracts from studies with 2 trial arms
-                    - Must be text with study results
-                    - Must contain at least least one intervention (e.g. drug name), outcome description (e.g. blood pressure) and non-comparative outcome measure)
+                    - Must be text with study results and at least one outcome description (e.g. blood pressure)
                     """)
 st.title("RCT-ART Extension Demo")
-st.header("Randomised Controlled Trial Abstract Result Tabulator")
+st.header("A tool to extract and summarise data from randomized controlled trial literature")
 
 # Define the model and default text
-ner_model = "trained_models/stats/ner/model-best"
-rel_model = "trained_models/stats/rel/model-best"
+ner_model = "trained_models/stats_descriptive/ner/model-best"
+rel_model = "trained_models/stats_descriptive/rel/model-best"
 
-default_text = "The primary endpoint was reached by 51 of 73 children taking ivabradine (70%) versus 5 of 41 taking placebo (12%) at varying doses (odds ratio: 17.24; p < 0.0001). Between baseline and 12 months, there was a greater increase in left ventricular ejection fraction in patients taking ivabradine than placebo (13.5% vs. 6.9%; p = 0.024). "
-default_text = "The percentage of patients who had a hematologic complete response was significantly higher in the daratumumab group than in the control group (53.3% vs. 18.1%) (relative risk ratio, 2.9; 95% confidence interval [CI], 2.1 to 4.1; P<0.001). Systemic administration-related reactions to daratumumab occurred in 7.3% of the patients. "
-default_text = "Systemic administration-related reactions to daratumumab occurred in 7.3% of the patients. The percentage of patients who had a hematologic complete response was significantly higher in the daratumumab group than in the control group (53.3% vs. 18.1%) (relative risk ratio, 2.9; 95% confidence interval [CI], 2.1 to 4.1; P<0.001).  "
+default_text = "Results: The primary endpoint was reached by 51 of 73 children taking ivabradine (70%) versus 5 of 41 taking placebo (12%) at varying doses (odds ratio: 17.24; p < 0.0001). Between baseline and 12 months, there was a greater increase in left ventricular ejection fraction in patients taking ivabradine than placebo (13.5% vs. 6.9%; p = 0.024). New York Heart Association functional class or Ross class improved more with ivabradine at 12 months than placebo (38% vs. 25%; p = 0.24). There was a trend toward improvement in QOL for ivabradine versus placebo (p = 0.053). N-terminal pro-B-type natriuretic peptide levels decreased similarly in both groups. Adverse events were reported at similar frequencies for ivabradine and placebo."
 
 # Enter result section
 st.subheader("Enter result text for analysis")
@@ -54,18 +51,17 @@ for sent in sent_doc.sents:
 
 ent_docs = ent_doc_bin.get_docs(nlp_ner.vocab)
 
-# NER analysis section
-st.subheader("NER analysis")
-
 for ent_doc in ent_docs:
 
-    spacy_streamlit.visualize_ner(
-        ent_doc,
-        labels=["INTV", "OC", "MEAS", "COMP", "PVAL", "CI"],
-        show_table=False,
-        title=False,
-        key=str(ent_doc.text)
-    )
+    # NER analysis section
+    # st.subheader("NER analysis")
+    # spacy_streamlit.visualize_ner(
+    #     ent_doc,
+    #     labels=["INTV", "OC", "MEAS", "COMP", "CI", "PVAL", "DES"],
+    #     show_table=False,
+    #     title=False,
+    #     key=str(ent_doc.text)
+    # )
 
     # RE process
     rel_doc = relation_extraction(rel_model,[ent_doc])[0]  # type: spacy.tokens.doc.Doc
@@ -91,13 +87,9 @@ for ent_doc in ent_docs:
 
     html = displacy.render(deps, style="dep", manual=True, options={'distance':80}) # Squre shaped -> options={'compact': True}
 
-    # RE analysis section
-    st.subheader("RE analysis")
-    st.write(spacy_streamlit.util.get_svg(html), unsafe_allow_html=True)
-
 nlp_rel = spacy.load(rel_model)
 rel_docs = rel_doc_bin.get_docs(nlp_rel.vocab)
-df = tabulate_pico_entities_text(rel_docs)
+df = tabulate_pico_entities_text(rel_docs, descriptive=True)
 # print('Relation: ', rel_doc._.rel)
 
 # Define tabulation format
@@ -105,10 +97,8 @@ heading_properties = [('font-size', '12px')]
 cell_properties = [('font-size', '12px')]
 dfstyle = [dict(selector="th", props=heading_properties),dict(selector="td", props=cell_properties)]
 
-#df.style.set_table_styles([cell_hover, index_names, headers])
-
 #Tabulation section
-st.subheader("Tabulation")
+st.subheader("Summary")
 st.table(df.style.set_table_styles(dfstyle))
 
 def get_table_download_link(df):

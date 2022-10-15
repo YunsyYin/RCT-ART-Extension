@@ -1,0 +1,10 @@
+# Environment
+.venv
+
+# Models
+trained_models
+
+# Output
+output_evaluations
+output_examples
+output_tables
