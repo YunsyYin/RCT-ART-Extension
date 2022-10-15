@@ -4,8 +4,10 @@
 
 RCT-ART Extension is an NLP pipeline extended from RCT-ART and a tool for extracting and summarising data from clinical trial literature through jointly extracting entities and their relations.
 
+
 ### Schematic of NLP pipeline design ###
-<p align="center"><img width="50%" src="public/system_design.jpg" /></p>
+<p align="center"><img width="30%" src="public/system_design.jpg" /></p>
+
 
 ### Running the system from Python ###
 
@@ -18,14 +20,17 @@ RCT-ART Extension is an NLP pipeline extended from RCT-ART and a tool for extrac
 streamlit run scripts/demo_extension.py
 ```
 
+
 ### Demo interface ###
-<p align="center"><img width="50%" src="public/demo_interface.jpg" /></p>
+<p align="center"><img width="100%" src="public/demo_interface.jpg" /></p>
+
 
 ### Example output ###
-<p align="center"><img width="50%" src="public/example.jpg" /></p>
+<p align="center"><img width="100%" src="public/example.jpg" /></p>
+
 
 
 #### References ####
-1. Original [RCT-ART](https://github.com/jetsunwhitton/RCT-ART)
+1. The original [RCT-ART](https://github.com/jetsunwhitton/RCT-ART).
 
 2. The relation extraction component was adapted from [spaCy project tutorial](https://github.com/explosion/projects/tree/v3/tutorials/rel_component).
